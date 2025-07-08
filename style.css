@@ -1,0 +1,18 @@
+.dragscroll {
+    overflow-x: auto;
+    display: flex;
+    cursor: grab;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    user-select: none;
+    white-space: nowrap;
+}
+.dragscroll::-webkit-scrollbar {
+    display: none;
+}
+.dragscroll:active {
+    cursor: grabbing;
+}
+.arrow-left, .arrow-right {
+    cursor: pointer;
+}
